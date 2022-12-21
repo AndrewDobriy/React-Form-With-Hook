@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(201, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-container {
+  width: 360px;
+  margin: auto;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 12px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 3px 3px 12px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 3px 3px 12px 0px rgba(50, 50, 50, 0.75);
+  padding: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(234, 232, 232);
+}
+
+.register-form > button {
+  cursor: pointer;
+  background-color: rgb(98, 176, 128);
+  color: white;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.success-message {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  color: white;
+  background-color: rgb(43, 140, 184);
+}
+
+span {
+  color: red;
+  font-size: 12px;
+}
